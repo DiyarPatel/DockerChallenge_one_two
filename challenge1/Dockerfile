@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy the contents of the public folder to the Nginx HTML directory
-COPY public /usr/share/nginx/html
+COPY public /nginx/html
 
 # Expose port 8080
 EXPOSE 8080
